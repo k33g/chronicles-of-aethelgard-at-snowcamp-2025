@@ -1,0 +1,55 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Light+",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.fontWeight": "normal",
+        "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+        "editor.fontSize": 18,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "markdown.preview.fontSize": 18,
+    "[dockerfile]": {
+        "editor.fontSize": 14,
+    },
+    "[dockercompose]": {
+        "editor.fontSize": 14,
+    },
+    "[go]": {
+        "editor.fontSize": 14,
+
+    },
+    "[rust]": {
+        "editor.fontSize": 14,
+
+    },
+    "[json]": {
+        "editor.fontSize": 14,
+
+    },
+    "[hcl]": {
+        "editor.fontSize": 14,
+
+    },
+    "[yaml]": {
+        "editor.fontSize": 14,
+
+    },
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    }
+}

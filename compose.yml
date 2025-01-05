@@ -1,0 +1,14 @@
+services:
+  
+  ollama-service:
+    image: k33g/chronicles-of-aethelgard:0.0.0
+    ports:
+      - 11434:11434
+
+  golang-version:
+    image: golang:1.23.4-alpine
+    entrypoint: 
+      - /bin/sh
+      - -c
+      - go version
+
