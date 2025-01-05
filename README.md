@@ -2,7 +2,7 @@
 
 ![Chronicles of Aethelgard](chronicles.jpeg)
 
-## Worksshop IA au Snowcamp 2025
+## Workshop IA au Snowcamp 2025
 
 L'objectif de ce workshop est de voir comment utiliser un modèle de langage (LLM) pour nous aider à créer un jeu de rôle textuel (RPG).
 
