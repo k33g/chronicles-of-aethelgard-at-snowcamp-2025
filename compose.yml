@@ -5,10 +5,15 @@ services:
     ports:
       - 11434:11434
 
-  golang-version:
-    image: golang:1.23.4-alpine
-    entrypoint: 
-      - /bin/sh
-      - -c
-      - go version
+  who-is-jean-luc-picard:
+    build: .
+    command: go run main.go
+    environment:
+      - OLLAMA_HOST=http://ollama-service:11434
+      - LLM=qwen2.5:0.5b
+    volumes:
+      - ./:/app
+    depends_on:
+      ollama-service:
+        condition: service_started
 
