@@ -23,7 +23,7 @@ Nous verrons comment utiliser un modèle de langage pour générer des textes po
 Et ensuite : **À FAIRE AVANT DE VENIR** 🙏
 
 ```bash
-docker pull k33g/chronicles-of-aethelgard:0.0.0
+docker pull k33g/chronicles-of-aethelgard:0.0.1
 docker pull FROM golang:1.23.4-alpine 
 ```
 

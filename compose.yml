@@ -1,7 +1,7 @@
 services:
   
   ollama-service:
-    image: k33g/chronicles-of-aethelgard:0.0.0
+    image: k33g/chronicles-of-aethelgard:0.0.1
     ports:
       - 11434:11434
 

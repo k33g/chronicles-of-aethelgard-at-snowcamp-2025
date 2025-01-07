@@ -38,7 +38,7 @@ func main() {
 		Model:    model,
 		Messages: messages,
 		Options: map[string]interface{}{
-			"temperature":    0.8,
+			"temperature":    0.9,
 			"repeat_last_n":  2,
 			"repeat_penalty": 1.8,
 			"top_k":          10,
