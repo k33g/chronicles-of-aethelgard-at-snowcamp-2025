@@ -38,7 +38,8 @@ Et ensuite : **À FAIRE AVANT DE VENIR** 🙏
 
 ```bash
 docker pull k33g/chronicles-of-aethelgard:0.0.2
-docker pull FROM golang:1.23.4-alpine 
+docker pull golang:1.23.4-alpine 
+docker pull curlimages/curl:8.6.0
 ```
 
 > Le Dockerfile de `k33g/chronicles-of-aethelgard` est disponible dans le répertoire `docker`.
